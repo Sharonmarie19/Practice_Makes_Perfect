@@ -1,0 +1,54 @@
+body{
+    background-color: darkorange;
+}
+div {
+    border: 3px solid #4CAF50;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 450px;
+    height: 400px;
+  }
+   
+  .clearfix::after {
+      
+      
+   
+  }
+   
+  .img {float: right;
+    
+   
+  }
+   
+  .box {
+    background: lightgreen;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+   
+  .leftContent {
+      padding: 0%;
+      padding-bottom: 0%;
+      width: 400px;
+      height: 400px;
+  }
+   
+  .rightContent {
+   float: right;
+   float: inline-end;
+   clear: right;
+   padding-bottom: 50px;
+   height: 250px;
+   
+
+  }
+   
+  .bottom {
+   display: flex; 
+   clear: both; 
+   width: 100%;
+   height: 100%;
+ 
+  }
